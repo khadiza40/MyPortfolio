@@ -61,3 +61,59 @@ a{
     font-size: 1rem;
     font-weight: bold;
 }
+.dream{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+   background-position: right;
+   
+}
+.dream{
+    margin-top: 7rem;
+    margin-left: 2rem;
+    display: flex;
+    height: 450px;
+
+}
+.experience{
+    
+   margin-top: 10rem;
+   
+}
+.developer{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    
+
+}
+.size{
+    padding-left: 3rem;
+}
+.developerType{
+    width: 30%;
+    margin-left: 5%;
+     text-align: justify; 
+    margin-right: 5%; 
+    padding: 5%;  
+ box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.479);
+ border-radius: 2px;
+ 
+}
+#typeOne{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(221, 51, 21) , rgb(240, 163, 20));
+border-image-slice: 1;
+}
+#typeTwo{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(64, 18, 231) , rgb(0, 255, 255));
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 10px;
+}
